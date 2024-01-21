@@ -1,0 +1,165 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+
+    
+
+    <link rel="stylesheet" href="./all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body cz-shortcut-listen="true">
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container aa">
+    <a class="navbar-brand" href="#">
+      <img src="./img/logo@2x.png" alt="logo" width="64" height="38">
+      <div class="logo ">
+        <h1>Weather</h1>
+        <p>tagline goes here</p>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item active-link">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Live Cameras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- header -->
+ <header class="bG">
+<div class="group">
+<div class=" box m-auto w-75  p-4">
+  <div class="enterLocation text-center pb-5">
+    <input type="text" class="w-100" name="search" placeholder="Find your location..." id="search">
+    <button>Find</button>
+  </div>
+  <div class=" container ">
+    <div class="row  gy-md-2 gx-md-4">
+      <div class="col-sm-12 col-md-4" id="today"> <div class="card text-white h-100  ">
+    <div class="card-header d-flex justify-content-between">
+    <span>Sunday</span> <span> 21January</span></div> 
+    <div class="card-body pt-3 p-2">
+      <h5 class="title">Cairo</h5>
+     <div class="c">
+       <span>24<sup>o</sup>C</span>
+       <img src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="First slide" width="30%">
+       <div class="description1 ">
+       <p>Partly cloudy</p>
+     </div>
+       </div>
+
+    <div class="icons1"> 
+       <div>
+       <img src="https://routeweather.netlify.app/images/icon-umberella.png" alt="">
+         <span>20%</span>
+       </div> 
+       <div>
+       <img src="https://routeweather.netlify.app/images/icon-wind.png" alt="">
+         <span>16.9km/h </span>
+       </div>
+       <div>
+      <img src="https://routeweather.netlify.app/images/icon-compass.png" alt="">
+         <span>East</span>
+       </div>
+     </div>
+   </div>
+   </div>
+</div>
+      <div class="col-sm-12 col-md-4 text-center " id="nextDay">
+<div class="card  text-white h-100  ">
+    <div class="card-header">
+      <div class="title2"><span>Monday</span></div>
+    </div>
+    <div class="card-body">
+        <img src="https://cdn.weatherapi.com/weather/64x64/day/176.png" alt="First slide" width="50%">
+        <div class="max">
+          <span>21.5<sup>o</sup>C</span>
+        </div>
+        <div class="min">
+          <span>14.1<sup>o</sup></span>
+        </div>
+    
+        <div class="description pt-3 ">
+          <span>Patchy rain possible</span>
+        </div>
+
+    </div>
+    </div>
+</div>
+      <div class="col-sm-12 col-md-4 text-center" id="dayThree">
+    <div class="card  text-white h-100">
+    <div class="card-header">
+    <div class="title2"><span>Tuesday</span></div>
+  </div>
+        
+        <div class="card-body ">
+        
+            <img src="https://cdn.weatherapi.com/weather/64x64/day/176.png" alt="First slide" width="50%">
+            <div class="max">
+              <span>19.6<sup>o</sup>C</span>
+            </div>
+            <div class="min">
+              <span>13.7<sup>o</sup></span>
+            </div>
+        
+            <div class="description pt-3">
+              <span>Patchy rain possible</span>
+            </div>
+        </div>
+        </div>
+    </div>   
+    </div> 
+</div>
+</div>
+</div></header>
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="sub text-white">
+      <div class="row justify-content-around">
+        <div class="col-md-12">
+        <div class="col-md-6 m-auto">
+          <div class="subinput">
+            <input type="text" name="subscribe" placeholder="Enter your email to subscribe...">
+            <button>Subscribe</button>
+          </div>
+        </div>
+      
+      </div>
+      </div>
+    </div>
+    <div class=" col-md-12  d-flex justify-content-center text-center">
+    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</div>
+  </div>
+
+
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+
+</body></html>
